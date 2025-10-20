@@ -69,7 +69,7 @@ class _MainAppState extends State<MainApp> {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           Text(
-                            "Dixon don't give up",
+                            "Dixon don't give up on coding",
                             style: TextStyle(color: Colors.white),
                           ),
                           SizedBox(
