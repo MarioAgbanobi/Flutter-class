@@ -1,4 +1,5 @@
 import 'package:first_app/blogs.dart';
+import 'package:first_app/card.dart';
 import 'package:first_app/increment.dart';
 import 'package:first_app/video_player.dart';
 // import 'package:first_app/youtube.dart';
@@ -59,26 +60,7 @@ class _MainAppState extends State<MainApp> {
 
                 Increment(),
                 // Blogs(),
-
-                Card(
-                    color: Colors.amber,
-                    margin: EdgeInsets.fromLTRB(16, 16, 16, 0.0),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          Text(
-                            "Dixon don't give up",
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          SizedBox(
-                            height: 6.0,
-                          ),
-                          Text("Author - dixon"),
-                        ],
-                      ),
-                    )),
+                CustomCard(),
 
                 // Text('Video from assets'),
                 // SamplePlayer2(),
@@ -96,7 +78,9 @@ class _MainAppState extends State<MainApp> {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                IconButton(icon: Icon(Icons.home), onPressed: () {}),
+                IconButton(icon: Icon(Icons.home), onPressed: () {
+                  
+                }),
                 IconButton(icon: Icon(Icons.search), onPressed: () {}),
                 Padding(
                   padding: const EdgeInsets.only(
