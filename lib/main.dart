@@ -60,7 +60,6 @@ class _MainAppState extends State<MainApp> {
 
                 Increment(),
                 // Blogs(),
-                CustomCard(),
 
                 // Text('Video from assets'),
                 // SamplePlayer2(),
