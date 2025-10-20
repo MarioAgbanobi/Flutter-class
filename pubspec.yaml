@@ -1,0 +1,27 @@
+name: first_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flick_video_player: ^0.9.0
+  video_player: ^2.10.0
+  youtube_player_flutter: ^9.1.3
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/car.jpeg
+  - assets/mark.mp4
