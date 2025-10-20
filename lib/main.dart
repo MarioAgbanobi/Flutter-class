@@ -58,7 +58,27 @@ class _MainAppState extends State<MainApp> {
                 // ),
 
                 Increment(),
-                Blogs(),
+                // Blogs(),
+
+                Card(
+                    color: Colors.amber,
+                    margin: EdgeInsets.fromLTRB(16, 16, 16, 0.0),
+                    child: Padding(
+                      padding: const EdgeInsets.all(12),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Text(
+                            "Dixon don't give up",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          SizedBox(
+                            height: 6.0,
+                          ),
+                          Text("Author - dixon"),
+                        ],
+                      ),
+                    )),
 
                 // Text('Video from assets'),
                 // SamplePlayer2(),
